@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="banner.png" width="100%" alt="DataFest Explorer: drop in CSV or JSON, explore and chart it, no SQL needed">
+  <img src="banner.png" width="100%" alt="Data Explorer: drop in CSV or JSON, explore and chart it, no SQL needed">
 </h1>
 
 <p align="center">
-  <a href="https://github.com/curtispfoster/DataFestExplorer-releases/releases/latest"><b>Download for Windows</b></a>
+  <a href="https://github.com/curtispfoster/DataExplorer-releases/releases/latest"><b>Download for Windows</b></a>
 </p>
 
 A desktop data explorer for data events like ASA DataFest. Admins drop in CSV or JSON files to
@@ -42,14 +42,14 @@ A built-in sample shop database is always there to practise on.
 
 You don't need Java, an IDE or admin rights: the app bundles its own Java runtime.
 
-1. Download the `.zip` from the [latest release](https://github.com/curtispfoster/DataFestExplorer-releases/releases/latest).
-2. Unzip it anywhere, for example your Documents folder. Keep the `DataFestExplorer` folder
-   together: `DataFestExplorer.exe` needs the `app` and `runtime` folders next to it.
-3. Double-click `DataFestExplorer.exe`. The app isn't code-signed, so Windows may show
+1. Download the `.zip` from the [latest release](https://github.com/curtispfoster/DataExplorer-releases/releases/latest).
+2. Unzip it anywhere, for example your Documents folder. Keep the `DataExplorer` folder
+   together: `DataExplorer.exe` needs the `app` and `runtime` folders next to it.
+3. Double-click `DataExplorer.exe`. The app isn't code-signed, so Windows may show
    **"Windows protected your PC"**. Click **More info**, then **Run anyway**.
 
 Each release lists the zip's SHA-256, so you can check your download with
-`Get-FileHash DataFestExplorer-*.zip` in PowerShell.
+`Get-FileHash DataExplorer-*.zip` in PowerShell.
 
 ### First launch
 
@@ -63,7 +63,7 @@ Each release lists the zip's SHA-256, so you can check your download with
 
 ### Where your data is kept
 
-Everything lives in `%LOCALAPPDATA%\DataFestExplorer\data`: the accounts (`users.db`), the
+Everything lives in `%LOCALAPPDATA%\DataExplorer\data`: the accounts (`users.db`), the
 imported datasets (`imports\`) and the sample shop. It's inside your Windows profile, so other
 Windows logins on the same PC can't reach it.
 
@@ -75,14 +75,15 @@ Windows logins on the same PC can't reach it.
 
 - **Updating:** replace the unzipped folder with the new one. Your accounts and datasets are kept,
   because they live in `%LOCALAPPDATA%`, not in the program folder.
-- **Coming from HelloApplication** (the app's old name): the first launch moves
-  `%LOCALAPPDATA%\HelloApplication\data` to the new folder, so everything carries over.
+- **Coming from DataFest Explorer or HelloApplication** (the app's old names): the first launch
+  moves `%LOCALAPPDATA%\DataFestExplorer\data` (or `HelloApplication\data`) to the new folder, so
+  everything carries over. You can then delete the old unzipped folder.
 - **Uninstalling:** delete the unzipped folder. To remove your data too, delete
-  `%LOCALAPPDATA%\DataFestExplorer`.
+  `%LOCALAPPDATA%\DataExplorer`.
 
 ## Problems?
 
-[Open an issue](https://github.com/curtispfoster/DataFestExplorer-releases/issues) with what you
+[Open an issue](https://github.com/curtispfoster/DataExplorer-releases/issues) with what you
 did, what happened and the version you're running.
 
 ## License
