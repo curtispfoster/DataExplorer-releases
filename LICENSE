@@ -1,0 +1,27 @@
+DataFest Explorer
+Copyright (c) 2026 Curtis Foster. All rights reserved.
+
+You may download, install and use the DataFest Explorer software released in
+this repository ("the Software") free of charge, for personal, educational or
+commercial purposes.
+
+You may not, without written permission from the copyright holder:
+
+  1. copy, redistribute, sell, rent or sublicense the Software, or host it for
+     download anywhere other than this repository;
+  2. modify the Software or create derivative works based on it;
+  3. decompile, disassemble or otherwise reverse engineer the Software, except
+     to the extent applicable law expressly permits it despite this
+     restriction.
+
+The Software includes third-party components (among them the Java runtime,
+JavaFX, sqlite-jdbc, BouncyCastle, and the Fredoka, Nunito and JetBrains Mono
+fonts). Each of those is covered by its own license, and nothing in this
+license restricts the rights those licenses grant.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
