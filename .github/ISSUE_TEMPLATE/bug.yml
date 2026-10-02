@@ -1,0 +1,66 @@
+name: Data Explorer bug report
+description: Something in Data Explorer is broken or not working as expected.
+title: "[Data Explorer] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying Data Explorer! Please check the [open issues](https://github.com/curtispfoster/DataExplorer-releases/issues) first in case it's already reported.
+
+        **Issues are public.** Don't paste passwords, real account names or rows from datasets you can't share. Describe the data instead, for example "a CSV with 40,000 rows and a date column".
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown in the release name you downloaded, for example 1.2.0.
+      placeholder: 1.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other or not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Sign in, create account or setup
+        - Importing CSV or JSON files
+        - Relationships diagram
+        - Exploring, filtering or sorting a table
+        - Charts
+        - Managing users (admin)
+        - Installing, starting or updating the app
+        - Somewhere else
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead? Include any error message shown at the bottom of the window.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Sign in as an admin
+        2. Drop orders.csv onto the window
+        3. Click Import
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Drag images in here. Hide anything private first.

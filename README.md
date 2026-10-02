@@ -83,8 +83,7 @@ Windows logins on the same PC can't reach it.
 
 ## Problems?
 
-[Open an issue](https://github.com/curtispfoster/DataExplorer-releases/issues) with what you
-did, what happened and the version you're running.
+[Report a bug or suggest an idea](https://github.com/curtispfoster/DataExplorer-releases/issues/new/choose).
 
 ## License
 

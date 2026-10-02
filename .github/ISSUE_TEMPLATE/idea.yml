@@ -1,0 +1,19 @@
+name: Data Explorer idea
+description: Suggest a feature or an improvement for Data Explorer.
+title: "[Data Explorer idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or problem, for example "compare two datasets side by side".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Your idea for how the app could do it.
+    validations:
+      required: true
